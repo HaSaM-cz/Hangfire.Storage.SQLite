@@ -33,8 +33,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Hangfire.Core" Version="1.7.12-HaSaM" />
     <PackageReference Include="sqlite-net-pcl" Version="1.6.292" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Hangfire\src\Hangfire.Core\Hangfire.Core.csproj" />
   </ItemGroup>
 
 </Project>
